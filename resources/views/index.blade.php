@@ -14,11 +14,14 @@
     <p>{{ $item->end }}</p>
     @endforeach
 
+
+    <h2>걸리는 시간(분)</h2>
+    @foreach($term as $item)
+    <p>{{ $item }}</p>
+    @endforeach
     <script>
-      var data = "{{ $data }}";
-      let orders = "{{ $orders }}"
-      console.log(orders.replace(/&quot;/g, '"'));
-      console.log(orders);
+      //let data = "{{ $data }}";
+      //console.log(data);
     </script>
 </body>
 </html>
