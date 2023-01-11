@@ -14,11 +14,6 @@
     <p>{{ $item->end }}</p>
     @endforeach
 
-
-    <h2>걸리는 시간(분)</h2>
-    @foreach($term as $item)
-    <p>{{ $item }}</p>
-    @endforeach
     <script>
       //let data = "{{ $data }}";
       //console.log(data);

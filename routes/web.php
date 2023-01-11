@@ -15,4 +15,3 @@ use App\Http\Controllers\WorkController;
 */
 
 Route::get('/', [WorkController::class, 'list']);
-//Route::get('/', [WorkController::class, 'cal']);
